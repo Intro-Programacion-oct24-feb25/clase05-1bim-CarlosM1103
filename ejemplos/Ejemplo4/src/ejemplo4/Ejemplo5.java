@@ -23,7 +23,7 @@ public class Ejemplo5 {
         entrada.useLocale(Locale.US);
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
-
+        // ! es una negación como decir diferente de
         if (!ciudad.equals("Loja")) {
             System.out.printf("%s\n", "acceso correcto");
         } else {
